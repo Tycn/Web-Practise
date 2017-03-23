@@ -266,7 +266,7 @@ table { border-spacing:0; border-collapse:collapse;}
 /*tuijan */
 .tuijian-wap{
     width: 100%;
-    height: 150px;
+    height: 160px;
     background: url("../image/tuijian-bg.png") repeat-x;
     margin-top: 30px;
 }
@@ -274,6 +274,17 @@ table { border-spacing:0; border-collapse:collapse;}
     width: 1200px;
     height: 150px;
     margin: 0 auto;
+    position: relative;
+}
+.tuijian .plus{
+    width: 17px;
+    height: 30px;
+    background: url("../image/icon-plus.png") no-repeat;
+    position: absolute;
+    left: 1193px;
+    top: 60px;
+    cursor: pointer;
+
 }
 .tuijian .time{
     width: 210px;
@@ -292,4 +303,32 @@ table { border-spacing:0; border-collapse:collapse;}
     color: #a31a47;
     text-align: center;
     line-height: 38px;
+}
+.tuijian .scroll{
+    width: 990px;
+    height: 165px;
+    /*background-color: red;*/
+}
+.tuijian .scroll ul li{
+    float: left;
+    width: 300px;
+    height: 165px;
+}
+
+.tuijian .scroll ul h3{
+    padding: 38px 0 0 19px;
+    font-size: 18px;
+    color: #333333;
+    line-height: 36px;
+    text-align: left;
+    font-weight: normal;
+
+}
+.tuijian .scroll ul span{
+    padding: 38px 0 0 19px;
+    font-size: 12px;
+    color: #4f4f4f;
+    line-height: 12px;
+    text-align: left;
+
 }
